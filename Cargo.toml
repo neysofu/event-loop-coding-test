@@ -1,5 +1,5 @@
 [package]
-name = "spacemesh-p2p"
+name = "event-loop-coding-test"
 version = "0.1.0"
 edition = "2021"
 
