@@ -16,7 +16,7 @@
 /// # Further discussion points
 ///
 /// - Are the patterns used here idiomatic? Is it possible to implement
-///   [`EventLoop::next_loop`] inside a trait (if so, which)?
+///   [`EventLoop::next_event`] inside a trait (if so, which)?
 /// - How can we test this?
 /// - Considerations about allocation, [`Decoder`] buffering, and performance.
 /// - What happens if we want to use a different `async` executor? Can we?
